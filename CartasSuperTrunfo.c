@@ -62,7 +62,7 @@ int main() {
     scanf("%d", &numeroDePontoTuristicos2);               // Armazenando o dado digitado pelo usuario na várialvel numeroDePontoTuristicos
 
     // Exibindo dados da primeira carta
-    printf("Dados cadastrados da segunda carta\n");
+    printf("\nDados cadastrados da segunda carta\n");
     printf("População: %d \n", populacao2); // exibindo a população da cidade
     printf("Área: %.2f Km2 \n", area2); // exibindo área com 2 casas decimais
     printf("PIB: %.2f bilhões de reais\n", pib2); // exibindo PIB com 2 casas decimais
