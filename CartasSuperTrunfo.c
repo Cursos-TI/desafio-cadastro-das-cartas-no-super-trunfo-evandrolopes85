@@ -11,19 +11,22 @@ int main() {
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 
     // Declaração de Variáveis da primeira carta
-    char estado;
-    char codigoDaCarta[3];
-    char cidade[100];
-    int populacao;
-    float area;
-    float pib;
-    int numeroDePontoTuristicos;
+    char estado; // declara váriavel estado do tipo char
+    char codigoDaCarta[3];       // declara váriavel codigoDaCarta do tipo char com 3 caracteres
+    char nomeDacidade[100];      // declara váriavel nomeDacidade do tipo char com até 100 caracteres
+    int populacao;               // declara váriavel populacao do tipo inteiro
+    float area;                  // declara váriavel area do tipo ponto flutuante
+    float pib;                   // declara váriavel pib do tipo ponto flutuante
+    int numeroDePontoTuristicos; // declara váriavel numeroDePontoTuristicos do tipo inteiro
 
+    // Cadastro das Cartas:
+    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
+    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     printf("Digite o estado, sendo uma letra entre A e H: \n");
     scanf("%c", &estado);
 
     printf("Digite o nome da cidade: \n");
-    scanf("%s", &cidade);
+    scanf("%s", nomeDacidade);
 
     printf("Digite a população: \n");
     scanf("%d", &populacao);
@@ -37,11 +40,13 @@ int main() {
     printf("Digite o número de pontos turisticos: \n");
     scanf("%d", &numeroDePontoTuristicos);
 
+    printf("Eatado: %c \n", estado);
+    printf("Nome da cidade: %s \n", nomeDacidade);
+    printf("População: %d \n", populacao);
+    printf("Área: %.2f \n", area);
+    printf("PIB: %.2f \n", pib);
+    printf("Nome da cidade: %d \n", numeroDePontoTuristicos);
 
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
     // Cadastro da primeira carta
 
     // Exibição dos Dados das Cartas:
