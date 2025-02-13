@@ -18,7 +18,7 @@ int main() {
 
     float areaA1, areaA2, areaA3, areaA4;
 
-    float pibA1, pibA2, piba3, pibA;
+    float pibA1, pibA2, pibA3, pibA4;
 
     int numeroDePontosTuristicosA1, numeroDePontosTuristicosA2, numeroDePontosTuristicosA3, numeroDePontosTuristicosA4;
     
@@ -31,7 +31,7 @@ int main() {
     scanf("%c", &estadoA);
 
     printf("\nCadastro da primeira carta do estado %c\n", estadoA);
-    printf("Digite o código da primeira carta:\n");
+    printf("Digite A01 para o código da primeira carta:\n");
     scanf("%s", codigoDaCartaA1);
 
     printf("Digite o nome da cidade:\n");
@@ -50,7 +50,7 @@ int main() {
     scanf("%d", &numeroDePontosTuristicosA1);
 
     printf("\nCadastro da segunda carta do estado %c\n", estadoA);
-    printf("Digite o código da primeira carta:\n");
+    printf("Digite A02 para o código da segunda carta:\n");
     scanf("%s", codigoDaCartaA2);
 
     printf("Digite o nome da cidade:\n");
@@ -67,6 +67,44 @@ int main() {
 
     printf("Digite o número de pontos turisticos: \n");
     scanf("%d", &numeroDePontosTuristicosA2);
+
+    printf("\nCadastro da terceira carta do estado %c\n", estadoA);
+    printf("Digite o código A03 para a terceira carta:\n");
+    scanf("%s", codigoDaCartaA3);
+
+    printf("Digite o nome da cidade:\n");
+    scanf(" %[^\n]s", nomeDaCidadeA3);
+
+    printf("Digite a população da cidade:\n");
+    scanf("%d", &populacaoA3);
+
+    printf("Digite a area da cidade: \n");
+    scanf("%f", &areaA3);
+
+    printf("Digite o PIB da cidade: \n");
+    scanf("%f", &pibA3);
+
+    printf("Digite o número de pontos turisticos: \n");
+    scanf("%d", &numeroDePontosTuristicosA3);
+
+    printf("\nCadastro da quarta carta do estado %c\n", estadoA);
+    printf("Digite A04 para o código da quarta carta:\n");
+    scanf("%s", codigoDaCartaA4);
+
+    printf("Digite o nome da cidade:\n");
+    scanf(" %[^\n]s", nomeDaCidadeA4);
+
+    printf("Digite a população da cidade:\n");
+    scanf("%d", &populacaoA4);
+
+    printf("Digite a area da cidade: \n");
+    scanf("%f", &areaA4);
+
+    printf("Digite o PIB da cidade: \n");
+    scanf("%f", &pibA4);
+
+    printf("Digite o número de pontos turisticos: \n");
+    scanf("%d", &numeroDePontosTuristicosA4);
 
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
