@@ -110,6 +110,39 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-   
+   printf("\nExibindo cartas cadastradas\n");
+   printf("\nEstado: %c\n", estadoA);
+   printf("Código da Carta: %s\n", codigoDaCartaA1);
+   printf("Nome da Cidade: %s\n", nomeDaCidadeA1);
+   printf("Populacao: %d\n", populacaoA1);
+   printf("Area %.2f em km2\n", areaA1);
+   printf("PIB %.2f bilhoes de reais\n", pibA1);
+   printf("Número de pontos turisticos: %d\n", numeroDePontosTuristicosA1);
+
+   printf("\nEstado: %c\n", estadoA);
+   printf("Código da Carta: %s\n", codigoDaCartaA2);
+   printf("Nome da Cidade: %s\n", nomeDaCidadeA2);
+   printf("Populacao: %d\n", populacaoA2);
+   printf("Area %.2f em km2\n", areaA2);
+   printf("PIB %.2f bilhoes de reais\n", pibA2);
+   printf("Número de pontos turisticos: %d\n", numeroDePontosTuristicosA2);
+
+   printf("\nEstado: %c\n", estadoA);
+   printf("Código da Carta: %s\n", codigoDaCartaA3);
+   printf("Nome da Cidade: %s\n", nomeDaCidadeA3);
+   printf("Populacao: %d\n", populacaoA3);
+   printf("Area %.2f em km2\n", areaA3);
+   printf("PIB %.2f bilhoes de reais\n", pibA3);
+   printf("Número de pontos turisticos: %d\n", numeroDePontosTuristicosA3);
+
+   printf("\nEstado: %c\n", estadoA);
+   printf("Código da Carta: %s\n", codigoDaCartaA4);
+   printf("Nome da Cidade: %s\n", nomeDaCidadeA4);
+   printf("Populacao: %d\n", populacaoA4);
+   printf("Area %.2f em km2\n", areaA4);
+   printf("PIB %.2f bilhoes de reais\n", pibA4);
+   printf("Número de pontos turisticos: %d\n", numeroDePontosTuristicosA4);
+
+
     return 0;
 }
